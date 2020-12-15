@@ -20,3 +20,8 @@ body {
     align-content: space-around;
     justify-items: center;
 }
+
+$color-gray-one: #666666;
+$color-gray-two: #b3b3b3;
+
+@import './search-bar.scss';
