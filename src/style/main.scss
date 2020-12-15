@@ -13,11 +13,17 @@ body {
 
 .home {
     height: 100vh;
-    //the page moves with your dynamically when you make it smaller or larger
     width: 66vw;
 
     display: grid;
     align-content: space-around;
+    justify-items: stretch;
+}
+
+.logo-main,
+.recent-posts 
+{
+    display: grid;
     justify-items: center;
 }
 
