@@ -4,6 +4,7 @@ import * as actions from '../actions';
 
 import Logo from './logo';
 import SearchBar from './searchBar';
+import ResultsPosts from './resultsPosts';
 
 class Results extends Component {
 
@@ -16,6 +17,7 @@ class Results extends Component {
             <div>
                 <Logo size={55} />
                 <SearchBar onSubmit={(query) => this.handleSearchBarSubmit(query)} />
+                <ResultsPosts />
             </div>
         );
     }
